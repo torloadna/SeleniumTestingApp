@@ -1,6 +1,7 @@
 # SeleniumTestingApp
 
 Test cases:
+
 userRegistrationProcessTest:
 ![image](https://user-images.githubusercontent.com/105055319/194230633-90f648c7-2769-4463-b572-accf307a0c34.png)
 
