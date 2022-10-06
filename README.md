@@ -12,3 +12,20 @@ endToEndBuyProduct:
 ![image](https://user-images.githubusercontent.com/105055319/194231978-da38015a-5bad-4c3a-8bdb-0f1535789443.png)
 
 
+# How to run tests
+
+1. Go into SeleniumTestingApp folder
+2. Run mvn clean test from the command line
+
+Note that you may need a java SDK installed on your PC. If you have trouble running the tests it could be because of the java version,
+so you can adjust the version in pom.xml file, at the bottom you can see:
+
+ <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+ </properties>
+ 
+ Just change the 19 version to the one you have/installed
+
+
