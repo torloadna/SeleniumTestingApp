@@ -15,7 +15,7 @@ endToEndBuyProduct:
 # How to run tests
 
 1. Go into SeleniumTestingApp folder
-2. Run mvn clean test from the command line
+2. Run "mvn clean test" from the command line
 
 Note that you may need a java SDK installed on your PC. If you have trouble running the tests it could be because of the java version,
 so you can adjust the version in pom.xml file, at the bottom you can see:
