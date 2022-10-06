@@ -20,11 +20,11 @@ endToEndBuyProduct:
 Note that you may need a java SDK installed on your PC. If you have trouble running the tests it could be because of the java version,
 so you can adjust the version in pom.xml file, at the bottom you can see:
 
- <properties>
+ "<properties>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
- </properties>
+ </properties>"
  
  Just change the 19 version to the one you have/installed
 
